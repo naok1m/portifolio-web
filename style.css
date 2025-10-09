@@ -781,6 +781,10 @@ body {
    COMPONENTS
 ======================================== */
 
+.header.is-scrolled {
+    margin-top: 80px;
+}
+
 .header.is-scrolled .nav {
     padding: 4px;
     backdrop-filter: blur(18px);
@@ -869,10 +873,6 @@ body {
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(139, 92, 246, 0.2);
 }
-
-/* ========================================
-   ABOUT PAGE
-======================================== */
 
 .about-hero {
     min-height: 60vh;
